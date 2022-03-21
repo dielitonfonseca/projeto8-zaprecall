@@ -6,7 +6,7 @@ const App = () => {
     const decks = {
         React: [
             {
-                pergunta: 'O que é JSX?',
+                pergunta: 'O que é o JSX?',
                 resposta: 'Uma extensão de linguagem do JavaScript',
             },
             {
@@ -42,102 +42,49 @@ const App = () => {
                     'dizer para o React quais informações quando atualizadas devem renderizar a tela novamente',
             },
         ],
-        HTML: [
+        Fundamentos: [
             {
-                pergunta: 'indica o início e o fim de um documento html',
-                resposta: '<html></html>',
+                pergunta: 'O nome que damos pra esse processo de disponibilizar ou atualizar um site pro público é ',
+                resposta: 'Deploy',
             },
             {
                 pergunta:
-                    'indica o início e o fim do título: o título é exibido na barra de título do navegador',
-                resposta: '<title></title>',
+                    'O que é O Endereço IP?',
+                resposta: 'é um endereço exclusivo que identifica um dispositivo na Internet ou em uma rede local',
             },
             {
-                pergunta: 'indica o início e o fim de uma lista não ordenada.',
-                resposta: '<ul></ul>',
+                pergunta: 'O que é endereço MAC?',
+                resposta: 'é um endereço físico e único, que é associado à interfaces de comunicação',
             },
             {
-                pergunta:
-                    'indica que o item que segue a tag é um item da lista',
-                resposta: '<li></li>',
+                pergunta: 'O que é DNS?',
+                resposta: 'converte nomes de domínio legíveis por humanos em endereços IP',
             },
             {
-                pergunta:
-                    'quebra uma linha de texto no ponto onde a tag aparece',
-                resposta: '<br/>',
-            },
-            {
-                pergunta:
-                    'cria uma marca âncora que é usada para criar hiperlinks',
-                resposta: '<a></a>',
-            },
-            {
-                pergunta: 'pesquisa e exibe imagens em uma página da web',
-                resposta: '<img>',
-            },
-            {
-                pergunta:
-                    'define uma lista de opções de seleção em um formulário',
-                resposta: '<select></select>',
-            },
-            {
-                pergunta: 'insere linha horizontal',
-                resposta: '<hr>',
-            },
-            {
-                pergunta: 'texto em negrito',
-                resposta: '<b></b>',
-            },
-            {
-                pergunta: 'texto em itálico',
-                resposta: '<i></i>',
+                pergunta: 'O que é GIT?',
+                resposta: ' um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software',
             },
         ],
-        Linux: [
+        Paulistão: [
             {
-                pergunta: 'pwd',
-                resposta:
-                    'Use o comando pwd para encontrar o caminho para o diretório atual (da pasta) em que você está',
+                pergunta: 'Quem e porque o Corinthians vai ser campeão Paulista?',
+                resposta: 'Corinthians',
             },
             {
-                pergunta: 'ls',
-                resposta: 'Listar arquivos no diretório',
+                pergunta: 'Quem e porque o Corinthians vai ser campeão Paulista?',
+                resposta: 'Palmeiras',
             },
             {
-                pergunta: 'rm',
-                resposta: 'Remove os arquivos especificados',
+                pergunta: 'Quem e porque o Corinthians vai ser campeão Paulista?',
+                resposta: 'São Paulo',
             },
             {
-                pergunta: 'cp',
-                resposta: 'Copia arquivos especificados',
+                pergunta: 'Quem e porque o Corinthians vai ser campeão Paulista?',
+                resposta: 'Ponte Preta',
             },
             {
-                pergunta: 'cd',
-                resposta: 'altera o diretório',
-            },
-            {
-                pergunta: 'cat',
-                resposta:
-                    ' Ele é usado para visualizar o conteúdo de um arquivo na saída padrão (sdout)',
-            },
-            {
-                pergunta: 'mkdir',
-                resposta: 'Use o comando mkdir para criar um novo diretório',
-            },
-            {
-                pergunta: 'rmdir',
-                resposta:
-                    'Se você precisa apagar (deletar) um diretório, use o comando rmdir.',
-            },
-            {
-                pergunta: 'touch',
-                resposta:
-                    'O comando touch permite criar novos arquivos em branco através de uma linha de comando',
-            },
-            {
-                pergunta: 'sudo',
-                resposta:
-                    'Correspondente a SuperUser Do, o comando sudo permite que que você execute tarefas que exigem permissões root ou administrativas',
+                pergunta: 'Quem e porque o Corinthians vai ser campeão Paulista?',
+                resposta: 'Bebida Energética',
             },
         ],
     };
